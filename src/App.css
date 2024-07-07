@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.order-book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-book-table th {
+  text-align: left;
+  padding: 8px;
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.order-book-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.price-header, .price {
+  text-align: right;
+}
+
+.amount-header, .amount {
+  text-align: right;
+}
+
+.ask {
+  background-color: #f08080; /* Красный для продаж */
+}
+
+.bid {
+  background-color: #90ee90; /* Зеленый для покупок */
+}
